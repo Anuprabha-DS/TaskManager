@@ -9,7 +9,7 @@ exports.registerUser = async (req,res)=>{
         if(!name || !email || !password){
             return res.status(400).json({ error: 'All field required' });  
         }
-        const existingUser = await User.findOne({email:email})
+        const existingUser = await User.findOne({email})
         if (existingUser) {
             return res.status(400).json({ error: 'Email already registered in users' });
         }
