@@ -1,0 +1,102 @@
+
+   .new-task-container {
+    background: #333232;
+    padding: 30px;
+    max-width: 700px;
+    margin: 50px auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    font-family: "Segoe UI", sans-serif;
+  }
+  
+  .new-task-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: 600;
+  }
+  
+  .task-input,
+  .task-textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 15px;
+  }
+  
+  .task-textarea {
+    height: 80px;
+    resize: vertical;
+  }
+  
+  .section {
+    margin-bottom: 20px;
+  }
+  
+  .color-picker {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+  }
+  
+  .color-circle {
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: border 0.2s;
+  }
+  
+  .color-circle.selected {
+    border: 2px solid #000;
+  }
+  
+  .repeat-options label,
+  .repeat-days label {
+    margin-right: 15px;
+    font-size: 14px;
+  }
+  
+  .repeat-days {
+    margin-top: 10px;
+  }
+  
+  .tags {
+    margin-top: 10px;
+  }
+  
+  .tag-button {
+    margin: 6px 8px 0 0;
+    padding: 6px 14px;
+    border-radius: 16px;
+    border: 1px solid #ccc;
+    background-color: #f0f0f0;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  
+  .tag-button.selected {
+    background-color: #dcdcdc;
+    border: 2px solid #555;
+  }
+  
+  .submit-btn {
+    margin-top: 20px;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    background-color: #222;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .submit-btn:hover {
+    background-color: #ef2424;
+  }
+  
