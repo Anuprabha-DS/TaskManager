@@ -24,7 +24,7 @@ function Register() {
     setLoading(true);
 
     try {
-      const response = await fetch(`${import.meta.env.VITE_BASE_URL}/auth/register`, {
+      const response = await fetch(`https://server-xi-ivory-43.vercel.app/auth/register`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(formData),

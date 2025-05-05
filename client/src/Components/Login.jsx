@@ -25,7 +25,7 @@ const Login = () => {
     setError('');
 
     try {
-      const response = await fetch(`${import.meta.env.VITE_BASE_URL}/auth/login`, {
+      const response = await fetch(`https://server-xi-ivory-43.vercel.app/auth/login`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'

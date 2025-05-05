@@ -44,7 +44,7 @@ const Task = () => {
     };
 
     try {
-      const res = await fetch(`${import.meta.env.VITE_BASE_URL}/task/addTask`, {
+      const res = await fetch(`https://server-xi-ivory-43.vercel.app/task/addTask`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
